@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'pt_sans';
+    src: url('../fonts/2221-webfont.woff2') format('woff2'),
+         url('../fonts/2221-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.center {
+    background-color: #000;
+    height: 935px;
+}
+.head {
+    height: 44px;
+}
+.contacts {
+    width: 370px;
+}
+.contacts, .enter {
+    color: #969696;
+    font-size: 12px;
+    font-family: 'pt_sans';
+    line-height: 16px;
+    font-weight: 400;
+}
+.contacts span {
+    padding: 0 10px;
+}
+.contacts p {
+    padding-left: 10px;
+}
+.contacts span::after {
+    content: "|";
+    position: relative;
+    right: -10px;
+}
+.icon-enter {
+    display: flex;
+    justify-content: flex-end;
+}
+.icon-enter img {
+    margin-right: 10px;
+}
+.icon-enter a{
+    vertical-align: middle;
+    line-height: 16px;
+    color: #969696;
+    text-decoration: none;
+}
+.icon-enter a{
+    vertical-align: middle;
+    line-height: 16px;
+    color: #969696;
+    text-decoration: none;
+    padding: 0 3px;
+}
+.icon-enter span::after {
+    content: "/";
+}
+.icon-enter a:hover {
+    color: #fff;
+    text-decoration: underline ;
+}
+hr {
+    display: none;
+}
+
+@media (max-width:600px){
+    .head {
+        height: 80px;
+    }
+    .contacts {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+    }
+    .contacts .icon-phone {
+        display: none;
+    }
+    .contacts p::after {
+        content: "|";
+        position: relative;
+        right: -10px;
+    }
+}
+
+@media (max-width:420px){
+    .colum-head {
+        flex-direction: column;
+    }
+    .icon-enter span{
+        display: none;
+    }
+    hr{
+        display: inline;
+        color: #fff;
+        margin: 5px 0;
+    }
+
+    
+}
+
+
+
+/* menu */
+
+.head-linetwo {
+    background-color:#0F0F0F;
+}
+
+.navbar-nav {
+    vertical-align: middle;
+}
+.navbar-nav .nav-link {
+    height: 100%;
+    color: #969696;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'pt_sans';
+    line-height: 18px;
+    font-weight: 400;
+    padding: 31px 20px !important; 
+}
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #838080;
+}
+
+/* button */
+
+.navbar-toggler-icon {
+    margin: 5px;
+    background-image: url("../img/gamburger-меню.svg");
+}
+.navbar-toggler {
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    margin-right: 5px;
+    padding: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 3px 1px #fff;
+  }
+  
+/* секция 3 */
+
+.head-background {
+    height: 810px;
+    background-image: url(../img/bc-head.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
