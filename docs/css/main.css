@@ -463,7 +463,6 @@
 .box-newCollection {
     height: 730px;
     background-image: url(../img/bc-secondBlock\ 8.svg);
-    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
