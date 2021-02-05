@@ -18,7 +18,7 @@
 
 .center {
     background-color: #000;
-    height: 935px;
+    height: 915px;
 }
 .head {
     height: 44px;
@@ -130,7 +130,7 @@
 /* картинка фона блока */
 
 .head-background {
-    height: 810px;
+    height: 90%;
     background-image: url(../img/bc-head.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -216,33 +216,70 @@
         height: 75px;
     }
     .box-content-head {
-        width: 23%;
-        height: 35%;
-    }
-    
+        width: 21%;
+        height: 29%;
+    }    
 }
 
+@media (max-width:1000px){
+    .center {
+        height: 880px;
+    }
+    .box-content-head {
+        width: 21%;
+        height: 25%;
+    }
+    .content-head img {
+        width: 85%;
+    }
+    .content-head .text-pamka{
+        font-size: 14px;
+    }
+
+}
+
+
 @media (max-width:900px){
+    .head-background {
+        background-size: cover;
+    }
     .box-content-head {
         width: 26%;
         height: 28%;
+        margin-bottom: 120px;
     }
     .box-text-head .text-head {
         font-size: 12px;
         line-height: 22px;
     }
+    .box-content-head {
+        width: 22%;
+        height: 23%;
+    }
+    .center {
+        height: 855px;
+    }
 }
 
 @media (max-width:800px){
     .box-content-head {
-        width: 33%;
-        height: 33%;
+        width: 28%;
+        height: 25%;
+    }
+    .content-head img {
+        width: 80%;
+    }
+    .content-head .text-pamka {
+        font-size: 13px;
     }
 }
 
 
 
 @media (max-width:600px){
+    .center {
+        height: 700px;
+    }
     .head {
         height: 80px;
     }
@@ -261,8 +298,12 @@
         right: -10px;
     }
     .box-content-head {
-        width: 48%;
-        height: 31%;
+        width: 32%;
+        height: 22%;
+        margin-bottom: 90px;
+    }
+    .content-head .text-pamka {
+        font-size: 12px;
     }
     .box-text-head {
         width: 70%;
@@ -272,11 +313,15 @@
         font-size: 11px;
         line-height: 20px;
     }
+    .content-head {
+        width: 78%;
+    }
 }
 
 
 
 @media (max-width:420px){
+
     .colum-head {
         flex-direction: column;
     }
@@ -291,12 +336,23 @@
     .content-head {
         width: 90%;
     }
+    
     .content-head img {
         width: 80%;
+        padding-bottom: 10px;
     }
     .box-content-head {
-        width: 55%;
-        height: 29%;
+        width: 37%;
+        height: 20%;
+        margin-bottom: 80px;
+    }
+    .content-head .text-pamka {
+        font-size: 11px;
+        padding-top: 2px;
+    }
+
+    .box-text-head .text-head {
+        line-height: 18px;
     }
 
 }
@@ -521,3 +577,76 @@
 
 
 
+/* адаптив для HEADER */
+
+@media (max-width:1100px){
+
+    .text-leftBlock {
+        font-size: 32px;
+    }
+    .leftBlock-hr {
+        width: 110px;
+        margin: 20px auto;
+    }
+    .carousel-watch {
+        margin-top: 120px;
+    }
+    .img-clock img {
+        padding: 20px 15px;
+    }
+    .img-clock {
+        height: 70%;
+    }
+    .watch__box p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .watch__box span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .slider__control {
+        top: 33%;
+        height: 40px;
+    }
+
+
+    /* правый блок */
+
+    .text-newCollection {
+        font-size: 32px;
+    }
+    .newCollection-hr {
+        margin: 20px auto;
+    }
+    .container-newCollection input {
+        width: 130px;
+        height: 43px;
+        font-size: 14px;
+    }
+        
+
+}
+
+@media (max-width:900px){
+
+
+
+}
+
+
+
+@media (max-width:600px){
+
+
+
+}
+
+
+
+@media (max-width:420px){
+
+
+
+
+}
