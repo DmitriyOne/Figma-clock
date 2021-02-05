@@ -344,7 +344,7 @@
     }
     .box-content-head {
         width: 37%;
-        height: 20%;
+        height: 23%;
         margin-bottom: 80px;
     }
     .content-head .text-pamka {
@@ -963,7 +963,7 @@
 @media (max-width:420px){
 
     .container-boxThirdtext {
-        padding-top: 30px;
+        padding-top: 42px;
     }
     .thirdBlock-hr {
         margin: 20px auto;
