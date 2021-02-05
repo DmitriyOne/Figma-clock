@@ -951,11 +951,6 @@
         line-height: 18px;
         font-size: 12px;
     }
-    
-    
-
-
-
 
 }
 
@@ -1000,6 +995,281 @@
     }
 }
 
+
+
+/* 4 блок сверху */
+
+.bc-fourth {
+    background-color: #000;
+    height: 1230px;
+}
+
+/* стили для заголовка в секции */
+
+.section-title {
+    padding-top: 120px;
+}
+
+.section-title h2 {
+    font-family: 'Playfair-Display';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.section-title hr {
+    width: 120px;
+    margin: 20px auto 80px auto;
+    color: white;
+    opacity: 1;
+}
+
+
+/* стили к часам  */
+.watch__boxFour {
+    width: 85%;
+    max-width: 260px;
+    height: 360px;
+    max-height: 360px;
+    transition: transform 0.6s ease;
+    border: 1px solid #838080;
+  }
+  
+  
+  .img-clockFour {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 78%;
+      background-color: #191B1C;;
+  }
+  
+  .img-clockFour img {
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .watch__boxFour p {
+    font-family: 'Playfair-Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .watch__boxFour span {
+    display: block;
+    font-family: 'Playfair-Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #D0D0D0;;
+  }
+
+  .services .watch__boxFour:hover {
+    box-shadow: 0 0 15px 0 rgba(189, 189, 189, 0.7);
+    transform: translateY(-10px);
+}
+
+
+
+/* адаптив для 4 блока */
+
+
+@media (max-width:1170px){
+
+    .img-clockFour img {
+        padding: 0;
+    }
+    .watch__boxFour {
+        height: 310px;
+    }
+    .bc-fourth {
+        height: 1080px;
+    }
+    .section-title {
+        padding-top: 90px;
+    }
+    .watch__boxFour p {
+        margin-top: 15px;
+    }
+    
+
+
+}
+
+
+@media (max-width:991px){
+    .bc-fourth {
+        height: 1600px;
+    }
+    .services .container .row div:nth-child(3),
+    .services .container .row div:nth-child(4) {
+        margin-top: 50px;
+    }
+    .watch__boxFour {
+        width: 70%;
+        height: 270px;
+    }
+    .img-clockFour img {
+        padding: 25px;
+    }
+    .watch__boxFour p {
+        margin-top: 7px;
+    }
+    
+
+
+}
+
+
+@media (max-width:767px){
+
+
+    .watch__boxFour {
+        width: 80%;
+        height: 275px;
+    }
+
+}
+
+
+@media (max-width:660px){
+    .bc-fourth {
+        height: 1400px;
+    }
+    .section-title h2 {
+        font-size: 34px;
+    }
+    .watch__boxFour {
+        width: 65%;
+        height: 220px;
+    }
+    .img-clockFour {
+        height: 72%;
+    }
+    .img-clockFour img {
+        padding: 20px;
+    }
+    .watch__boxFour p {
+        font-size: 16px;
+    }
+    .watch__boxFour span {
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width:575px){
+
+    .bc-fourth {
+        height: 3000px;
+    }
+    .section-title {
+        padding-top: 65px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .section-title hr {
+        width: 110px;
+        margin: 20px auto 70px auto;
+    }
+
+
+
+    .services .margin {    
+        margin-bottom: 50px;
+    }
+
+    .watch__boxFour {
+        height: 290px;
+    }
+    .img-clockFour {
+        height: 80%;
+    }
+    .img-clockFour img {
+        padding: 25px;
+    }
+
+
+}
+
+
+
+@media (max-width:420px){
+    .bc-fourth {
+        height: 2550px;
+    }
+
+    .section-title {
+        padding-top: 50px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+    }
+    .section-title hr {
+        margin: 10px auto 60px auto;
+    }
+
+    .watch__boxFour {
+        height: 240px;
+    }
+    .img-clockFour {
+        height: 76%;
+    }
+
+    .watch__boxFour p {
+        font-size: 14px;
+    }
+    .watch__boxFour span {
+        font-size: 12px;
+    }
+    
+
+}
+
+
+@media (max-width:380px){
+    .bc-fourth {
+        height: 2250px;
+    }
+    .img-clockFour img {
+        padding: 15px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .watch__boxFour {
+        height: 210px;
+    }
+    .watch__boxFour p {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 12px;
+    }
+    
+    
+
+
+
+}
+
+  
 
 
 
