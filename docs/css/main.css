@@ -1547,33 +1547,113 @@
 
 @media (max-width:991px){
     .footer {
-        height: 550px;
+        height: 560px;
     }
-
+    .box__connection {
+        margin-left: 0;
+        margin-top: 50px;
+        height: 190px;
+    }
+    .box__aboutMagazin,
+    .box__categories {
+        height: 185px;
+    }
+    .box__aboutMagazin h3, .box__categories h3, .box__connection h3 {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .box__aboutMagazin p, .box__connection p {
+        font-size: 12px;
+        line-height: 20px;
+    }
     
-
-
-
-
-}
-
-
-
-@media (max-width:820px){
-
-
-    
-
-
-
-
 }
 
 
 
 @media (max-width:767px){
 
+    .footer {
+        height: 635px;
+    }
+    .box__aboutMagazin, 
+    .box__connection {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .box__categories {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .box__aboutMagazin,
+    .box__categories {
+        margin-bottom: 50px;
+    }
+    .box__aboutMagazin h3, .box__categories h3, .box__connection h3 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 21px;
+    }
+    .box__aboutMagazin p, .box__connection p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .box__aboutMagazin {
+        height: 150px;
+        margin-bottom: 40px;
+    }
+    .box__categories {
+        margin-bottom: 35px;
+    }
+    .box__categories .watch,
+    .box__categories .bracelet, 
+    .box__categories .belts, 
+    .box__categories .categories-secondLine .jewelry,
+    .box__categories .categories-secondLine .cufflinks {
+        height: 35px;
+    }
+    .box__categories .watch a, .box__categories .bracelet a, .box__categories .belts a, .box__categories .categories-secondLine .jewelry a, .box__categories .categories-secondLine .cufflinks a {
+        font-size: 12px;
+    }
+    .box__categories .watch{
+        width: 50px;
+    }
+    .box__categories .bracelet {
+        width: 75px;
+    }
+    
+    .box__categories .belts {
+        width: 60px;
+    }
+    
+    .box__categories .categories-secondLine .jewelry {
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .box__categories .categories-secondLine .cufflinks {
+        margin-top: 20px;
+        width: 70px;
+    }
 
+    .box__connection input {
+        margin-top: 32px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .box__connection input[type="email"]::placeholder {
+        font-size: 11px;
+    }
+    .box__connection button {
+        width: 140px;
+        height: 38px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .box__connection {
+       height: 160px;
+    }
     
 
 
@@ -1582,10 +1662,34 @@
 
 
 
-@media (max-width:575px){
-
-    
-
+@media (max-width:475px){
+    .footer {
+        height: 585px;
+    }
+    .box__aboutMagazin {
+        height: 135px;
+    }
+    .box__categories {
+        height: 145px;
+    }
+    .box__connection {
+        height: 155px;
+    }
+    .box__aboutMagazin h3, .box__categories h3, .box__connection h3 {
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+    .box__aboutMagazin p, .box__connection p {
+        line-height: 16px;
+    }
+    .box__connection input {
+        width: 150px;
+        height: 32px;
+    }
+    .box__connection button {
+        width: 105px;
+        letter-spacing: 0;
+    }
 
 
 }
