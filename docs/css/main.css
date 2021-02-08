@@ -40,6 +40,11 @@
     color: #969696;
     padding: 0 10px;
 }
+.contacts span a {
+    color: #969696;
+    text-decoration: none;
+}
+
 .contacts p {
     padding-left: 10px;
 }
