@@ -1694,11 +1694,19 @@
 
 }
 
+/* 7 блок */
 
 
-@media (max-width:380px){
-
-    
-
-
+footer {
+    height: 50px;
+    background-color: #0F0F0F;
 }
+
+footer p {
+    font-family: 'pt_sans';
+    font-size: 12px;
+    font-weight: 700;
+    color: #D0D0D0;
+    line-height: 16px;
+}
+
