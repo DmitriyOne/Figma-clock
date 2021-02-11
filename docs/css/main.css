@@ -32,6 +32,7 @@
 .contacts, .enter {
     color: #969696;
     font-size: 12px;
+    -moz-font-size: 11px;
     font-family: 'pt_sans';
     line-height: 16px;
     font-weight: 400;
